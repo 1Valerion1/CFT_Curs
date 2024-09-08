@@ -1,0 +1,60 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+group 'ru.cft.curs'
+version '0.0.1'
+
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs '-Dfile.encoding=UTF-8'
+}
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // Apache Commons CLI
+    implementation group: 'commons-cli', name: 'commons-cli', version: '1.6.0'
+    //lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+    //log4j
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.23.0'
+    // Test
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ru.cft.curs.Main'
+    }
+    archiveBaseName.set('util')
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
