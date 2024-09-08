@@ -14,6 +14,7 @@ import java.util.List;
 public class CommandLineParameters {
     private static final Logger logger = LogManager.getLogger(Main.class);
 
+    // Метод для создания опций командной строки
     private static Options createOptions() {
         logger.info("Moved to the CommandLineParser class to create options. ");
         Options options = new Options();
@@ -38,8 +39,8 @@ public class CommandLineParameters {
             parameters.setAppend(cmd.hasOption("a"));
             parameters.setShortStatistics(cmd.hasOption("s"));
             parameters.setFullStatistics(cmd.hasOption("f"));
-
-            if (parameters.getInputFiles().get(0).isEmpty())  {
+            // Проверка наличия хотя бы одного входного файла
+            if (parameters.getInputFiles().get(0).isEmpty()) {
                 handleError("Error: At least one input file must be specified.");
             }
 
@@ -51,7 +52,7 @@ public class CommandLineParameters {
             logger.error("Error: " + e.getMessage());
             helper();
             System.exit(1);
-        } catch (ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException e) {
             logger.error("Error: " + e.getMessage());
             helper();
             System.exit(1);
@@ -59,19 +60,20 @@ public class CommandLineParameters {
 
         return parameters;
     }
-
+    // Метод для обработки ошибок
     private static void handleError(String errorMessage) {
         logger.error(errorMessage);
         helper();
         throw new RuntimeException(errorMessage);
     }
 
+    // Метод для вывода справочной информации о правильном использовании
     public static void helper() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Как использовать help:\n");
-        sb.append("java -jar <название_вашего_jar_файла> [OPTIONS] <входные файлы>\n\n");
+        sb.append("Как использовать:\n");
+        sb.append("java -jar <название_вашего_jar_файла> [OPTIONS] <входные файлы>\n");
         sb.append("Пример:\n");
-        sb.append("java -jar util.jar -f -a -o src/main/resources -p myPrefix- in1.txt in2.txt\n");
+        sb.append("java -jar util.jar -f -a -o src/main/resources -p myPrefix- in1.txt in2.txt\n\n");
         sb.append("Опции:\n");
         sb.append("  -o Указывает путь для сохранения результатов.\n");
         sb.append("  -p Указывает префикс для имен выходных файлов.\n");

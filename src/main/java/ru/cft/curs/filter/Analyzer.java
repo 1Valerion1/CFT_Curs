@@ -14,7 +14,6 @@ import java.util.List;
 
 public class Analyzer {
     private static final Logger logger = LogManager.getLogger(Analyzer.class);
-
     private final FileReaders fileReader;
     private final FileWrites fileWriter;
     private final DataFilter dataFilter;

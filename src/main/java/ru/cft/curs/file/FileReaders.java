@@ -14,6 +14,7 @@ import java.util.List;
 public class FileReaders {
     private static final Logger logger = LogManager.getLogger(FileReaders.class);
 
+    // Метод для чтения данных из файла с указанием кодировки UTF-8
     public List<String> readFile(List<String> inputFiles) {
         logger.info("Moved to the FileReaders class");
 

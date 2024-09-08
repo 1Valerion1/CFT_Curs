@@ -9,6 +9,7 @@ import java.util.List;
 public class DataFilter {
     private static final Logger logger = LogManager.getLogger(DataFilter.class);
 
+    // Отвечает за распределение данных по 3 типам
     public void filterData(List<String> stringList, Statistics statistics) {
         logger.info("Moved to the DataFilter class to filter files");
 

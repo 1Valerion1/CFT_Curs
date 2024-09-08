@@ -3,6 +3,7 @@ package ru.cft.curs.statistics;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+// Позволяет выводить статистику, как в коротком, так и полном формате
 public class StatisticsPrinter {
     private static final Logger logger = LogManager.getLogger(StatisticsPrinter.class);
 

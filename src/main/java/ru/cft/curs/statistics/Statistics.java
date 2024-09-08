@@ -3,6 +3,7 @@ package ru.cft.curs.statistics;
 import java.util.ArrayList;
 import java.util.List;
 
+// Хранит поля и методы для работы со статистикой
 public class Statistics {
     //Списки для хранения данных
     List<String> strings = new ArrayList<>();
@@ -61,6 +62,7 @@ public class Statistics {
         floats.add(floatValue);
     }
 
+    //Для вычисления min,max в файле со строкой
     public void stringStat() {
 
         for (String str : strings) {
@@ -69,7 +71,7 @@ public class Statistics {
         }
 
     }
-
+    //Для вычисления min,max, sum и mean в integer файле
     public void integersStat() {
         for (Long strLong : integers) {
             minInt = Math.min(minInt, strLong);
@@ -81,6 +83,7 @@ public class Statistics {
 
     }
 
+    //Для вычисления min,max, sum и mean в float файле
     public void floatStat() {
         for (Double strFloat : floats) {
             minFloat = Math.min(minFloat, strFloat);

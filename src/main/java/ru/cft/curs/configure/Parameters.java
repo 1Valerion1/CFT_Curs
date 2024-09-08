@@ -2,6 +2,7 @@ package ru.cft.curs.configure;
 
 import java.util.List;
 
+// Используется для хранения параметров, полученных из командной строки.
 public class Parameters {
     private List<String> inputFiles;
     private String outputPath;

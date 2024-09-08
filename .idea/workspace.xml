@@ -5,33 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60baf96e-1f85-45b1-9474-53ef9469215e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/configure/CommandLineParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/configure/Parameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/file/FileReaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/file/FileWrites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/filter/Analyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/filter/DataFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/statistics/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/statistics/StatisticsPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileReadersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileWritesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/configure/CommandLineParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/configure/CommandLineParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/configure/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/configure/Parameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/file/FileReaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/file/FileReaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/file/FileWrites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/file/FileWrites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/filter/Analyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/filter/Analyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/filter/DataFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/filter/DataFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/statistics/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/statistics/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/cft/curs/statistics/StatisticsPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/curs/statistics/StatisticsPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +90,7 @@
       <recent name="C:\Users\vvadi\Desktop\T-bank\Test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.FileReadersTest">
     <configuration name="ru.cft.curs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.cft.curs.Main" />
       <module name="Test.main" />
@@ -109,8 +98,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileReadersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FileReadersTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FileReadersTest.testReadFileSuccessfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FileReadersTest.testReadFileSuccessfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FileWritesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FileWritesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FileReadersTest" />
+        <item itemvalue="Gradle.FileWritesTest" />
+        <item itemvalue="Gradle.FileReadersTest.testReadFileSuccessfully" />
         <item itemvalue="Application.ru.cft.curs.Main" />
       </list>
     </recent_temporary>
@@ -124,25 +185,38 @@
       <option name="presentableId" value="Default" />
       <updated>1725517884850</updated>
     </task>
+    <task id="LOCAL-00001" summary="# Реализация проекта для фильтрации данных">
+      <created>1725762993021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725762993021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="# Реализация проекта для фильтрации данных" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Реализация проекта для фильтрации данных" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/cft/curs/statistics/Statistics.java</url>
-          <line>85</line>
+          <line>88</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/cft/curs/configure/CommandLineParameters.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/cft/curs/Main.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
